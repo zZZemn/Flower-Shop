@@ -1,3 +1,5 @@
+
+
 const addingImages = () => {
     for (var i = 0; i <= 22; i++) {
         var div = document.createElement("div");
