@@ -130,16 +130,37 @@ form {
 
 .flower {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding-top: 5px;
     margin: 20px;
     background-color: rgb(247, 247, 247);
-    height: 300px;
+    height: 290px;
     width: 210px;
     border-radius: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    cursor: pointer;
 }
 
 .flower img {
     height: 230px;
     width: 200px;
+}
+
+.flower-name {
+    position: absolute;
+    top: 82%;
+    left: 7px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.price {
+    position: absolute;
+    color: blue;
+    bottom: 2%;
+    right: 7px;
+    font-size: 13px;
+    letter-spacing: 1px;
 }
