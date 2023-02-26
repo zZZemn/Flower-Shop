@@ -1,0 +1,25 @@
+@media (max-width: 770px) { 
+
+    .logo a {
+        color: #4e295d;
+    }
+
+    .burger div{
+        background-color: #4e295d;
+    }
+
+    .nav-links-mobile {
+        background-color: #ffffff !important;
+        padding: 2px;
+        padding-top: 60px;
+        height: 230px;
+    }
+    
+    .nav-links-mobile li {
+        background-color: rgb(254, 243, 255)
+    }
+
+    .nav-links-mobile li a {
+        color:#4e295d;
+    }
+}
