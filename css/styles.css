@@ -91,19 +91,23 @@ body {
 form {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 40px;
 
     border-top: 1px solid black;
 }
 
 #search-bar {
-    height: 40px;
-    width: 500px;
+    height: 60px;
+    width: 75%;
 
     border: 1px solid black;
     outline: none;
-    padding: 5px;
+    padding: 10px;
     border-right: none !important;
+
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
 }
 
 .btn-search {
@@ -112,8 +116,8 @@ form {
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
 
     border: 1px solid black;
     background-color: white;
