@@ -41,7 +41,7 @@ const addingImages = () => {
 
         var price = document.createElement("p")
         price.setAttribute("class", "price");
-        price.textContent = flowerPrices[i];
+        price.textContent = "$" + flowerPrices[i];
         
         document.querySelector(".flower" + i).appendChild(image);
         document.querySelector(".flower" + i).appendChild(name);
