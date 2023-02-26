@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto+Condensed&display=swap');
-    </style>     
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,500&family=Roboto+Condensed:wght@300;400&display=swap');
+    </style>         
     <title>All Flowers</title>
 </head>
-<body style="background-image: none !important; overflow-y: scroll;">
+<body style="background-image: none !important; overflow-y: scroll; background-color: rgb(254, 243, 255) !important;">
     <div class="nav">
         <ul class="nav-links">
             <li><a href="#">All Flowers</a></li>
@@ -23,6 +23,19 @@
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
+
+        <ul class="nav-links-mobile">
+            <li><a href="html/flowers.html">All Flowers</a></li>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
     </div>
 
     <div class="flowers-parent-container">
@@ -33,11 +46,14 @@
             </form>
         </div>
 
+        <h1 class="shop-label">Shop</h1>
+
         <div class="flowers-container">
 
         </div>
     </div>
 
     <script src="../javascript/flowers.js"></script>
+    <script src="../javascript/menu.js"></script>
 </body>
 </html>
