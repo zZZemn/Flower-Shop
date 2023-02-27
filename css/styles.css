@@ -251,12 +251,12 @@ form {
     border-radius: 2px;
     font-family: 'Roboto Condensed', sans-serif;
     position: relative;
-    cursor: pointer;
 }
 
 .flower img {
     height: 230px;
     width: 100%;
+    cursor: pointer;
 }
 
 .flower-name {

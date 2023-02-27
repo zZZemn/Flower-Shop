@@ -34,7 +34,7 @@ const addingImages = () => {
         
         var image = document.createElement("img")
         image.setAttribute("src","../img/flower"+ i +".jpg");
-        image.setAttribute("class", "img");
+        image.setAttribute("class", "img img" + i);
 
         var name = document.createElement("h5")
         name.setAttribute("class", "flower-name");

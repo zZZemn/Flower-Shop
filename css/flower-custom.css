@@ -2,11 +2,72 @@ body {
     background-size: 100vh;
 }
 
-.open-flower {
-    background-color: blue;
-    position: absolute;
-    z-index: 100;
+/*opening of flower*/
+
+.parent-container-open {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.767);
+    
+   display: none;
 }
+
+.open-flower-container {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    border: 2px solid #4e295d;
+}
+
+.open-flower-container img {
+    position: absolute;
+    height: 75%;
+    top: 7%;
+    border: 2px solid #4e295d;
+}
+
+.price-name-container {
+    position: absolute;
+    bottom: 5%;
+    width: 83%;
+}
+
+.price-name-container h1{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.price-name-container p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #4e295d;
+}
+
+.cart {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    color:#4e295d;
+}
+
+.image-view {
+    display: flex;
+}
+
+.remove-scroll { overflow: hidden !important; }
 
 @media (max-width: 770px) { 
 
