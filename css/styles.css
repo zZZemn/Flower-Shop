@@ -243,6 +243,62 @@ form {
     font-weight: 400;
 }
 
+/*--------------------------*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.11);
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.footer .socials ul {
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid #4e295d;
+    padding-left: 10px;
+}
+
+.footer .socials ul li {
+    list-style: none;
+    display: flex;
+    margin: 3px;
+}
+
+.footer .socials ul li a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+
+.copyright p{
+    font-family: monospace;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding-left: 100px;
+}
+
+.footer .address {
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid #4e295d;
+    padding-left: 5px;
+}
+
+.footer .address a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+}
 
 @media (max-width: 1048px) {
     .text-container p {
