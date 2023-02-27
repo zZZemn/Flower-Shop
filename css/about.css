@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 .about-container {
     display: flex;
     position: relative;
@@ -6,7 +10,6 @@
 
 .about-container img {
     height: 600px;
-    border: 10px solid rgb(254, 243, 255);
     border-bottom: 25px;
     border-right: none;
 }
@@ -90,6 +93,67 @@
     letter-spacing: 1px;
 }
 
+@media (max-width: 1220px) { 
+    .about-container img {
+        height: 450px;
+    }
+}
+
+@media (max-width: 1092px) {
+    .about-container img {
+        height: 440px;
+    }
+
+    .about-container .about p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .about-container img {
+        height: 430px;
+    }
+
+    .about-container .about p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 953px) { 
+    .about-container img {
+        height: 420px;
+    }
+}
+
+@media (max-width: 921px) { 
+    .about-container img {
+        height: 400px;
+    }
+}
+
+@media (max-width: 890px) { 
+    .about-container img {
+        height: 380px;
+    }
+}
+
+@media (max-width: 870px) { 
+    .about-container img {
+        display: none;
+    }
+
+    .about-container {
+        margin-top: 15vh;
+    }
+
+    .about {
+        padding-right: 20px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+}
 
 @media (max-width: 770px) { 
 
@@ -114,24 +178,6 @@
 
     .nav-links-mobile li a {
         color:#4e295d;
-    }
-
-    .about-container {
-        height: 30vh;
-        width: 80%;
-        margin: auto;
-        margin-top: 15%;
-        font-family: 'Poppins', sans-serif;
-    }
-    
-    .about-container h1 {
-        font-size: 25px;
-    }
-    
-    .about-container p {
-        font-size: 14px;
-        color: #4e295d;
-        border-left: 3px solid #4e295d;
     }
 
     .footer {
@@ -161,27 +207,10 @@
     .copyright p{
         font-size: 8px;
         padding-left: 5px;
-    }   
-
-    .about-container {
-        margin-top: 25%;
-    }
+    } 
 }
 
 @media (max-width: 425px) { 
-    .about-container {
-        height: 30vh;
-    }
-
-    .about-container h1 {
-        font-size: 20px;
-    }
-    
-    .about-container p {
-        font-size: 12px;
-        color: #4e295d;
-        border-left: 3px solid #4e295d;
-    }
 
     .footer {
         padding: 10px;
@@ -195,21 +224,6 @@
 }
 
 @media (max-width: 320px) {
-    .about-container {
-        height: 20vh;
-        margin-top: 45%;
-    }
-
-    .about-container h1 {
-        font-size: 13px;
-    }
-    
-    .about-container p {
-        font-size: 10px;
-        color: #4e295d;
-        border-left: 3px solid #4e295d;
-    }
-
     .footer {
         padding: 10px;
         font-size: 9px;
