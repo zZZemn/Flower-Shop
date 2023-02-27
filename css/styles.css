@@ -118,6 +118,24 @@ body {
     color: white;
 }
 
+.hidden .nav-links{
+    transform: translateY(-200%);
+    transition: 1s;
+}
+
+.hidden .logo {
+    transform: translateY(-300%);
+    transition: 1s;
+}
+
+.show .nav-links {
+    transform: translateY(0%);
+}
+
+.show .logo {
+    transform: translateY(0%);
+}
+
 /*------------------/*/
 
 .text-container {
