@@ -128,7 +128,7 @@ body {
 }
 
 .hidden .logo {
-    transform: translateY(-300%);
+    transform: translateY(-200%);
     transition: 1s;
 }
 
