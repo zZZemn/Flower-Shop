@@ -39,7 +39,11 @@ const imageView = () => {
                 var div = document.createElement("div")
                 div.setAttribute("class", "open-flower-container");
                 document.querySelector(".parent-container-open").appendChild(div);
-                
+
+                var btnClose = document.createElement("i")
+                btnClose.setAttribute("class", "fa-regular fa-rectangle-xmark btn-close");
+                document.querySelector(".open-flower-container").appendChild(btnClose);
+
                 var image1 = document.createElement("img")
                 image1.setAttribute("src","../img/flower" + secondClassName + ".jpg");
                 image1.setAttribute("class","opened-img");
@@ -75,16 +79,6 @@ const imageView = () => {
     });
 }
 
-document.querySelectorAll('.parent-container-open').forEach(n => n.addEventListener('click', () =>{
-    const div = document.querySelector('.parent-container-open');
-    while (div.firstChild) {
-        div.removeChild(div.firstChild);
-    }
-
-    parentContainer.classList.remove('image-view');
-    body.classList.remove('remove-scroll');
-}));
 
 imageView();
-
 
