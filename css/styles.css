@@ -313,12 +313,12 @@ form {
     
     .text-container h1 {
         color: white;
-        text-shadow: 1px 1px 1px #4e295d;
+        text-shadow: 2px 2px 2px #4e295d;
     }
 
     .text-container p {
         text-shadow: none;
-        background-color: rgba(0, 0, 0, 0.185);
+        background-color: rgba(0, 0, 0, 0.411);
         padding: 25px;
         border-radius: 10px;
         color: white;
@@ -348,9 +348,10 @@ form {
     }
 
     body {
-        background-color: #4e295d;
+        background-color: #85008546;
         background-image: url('../img/flowers-2324504.png');
-        background-size: cover;
+        background-size: 90%;
+        background-position: bottom;
         background-repeat: no-repeat;
     }
 
