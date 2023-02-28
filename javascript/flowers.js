@@ -1,14 +1,14 @@
 let flowerNames = [
-    "Mother's Day Pink Peonies Bouquet",
-    "Delicate Pink Cherry Blossoms Bouquet",
-    "Enchanting Blue Delphiniums Bouquet",
-    "Citrus Burst Orange and Yellow Bouquet",
-    "Timeless White Roses and Greenery Bouquet",
-    "Bold and Beautiful white and Purple Bouquet",
-    "Refreshing Mint Green and White Bouquet",
+  "Pink Peonies Bouquet",
+    "Cherry Blossoms Bouquet",
+    "Delphiniums Bouquet",
+    "Citrus Burst Bouquet",
+    "Timeless Bouquet",
+    "Bold and Beautiful Bouquet",
+    "Mint Green Bouquet",
     "Congrats Grad Bouquet",
-    "Modern and Edgy Dark Bouquet",
-    "Red and Pink Delight Bouquet",
+    "Edgy Dark Bouquet",
+    "Red Delight Bouquet",
     "Pink Paradise Bouquet",
     "Sun-Kissed Bouquet",
     "Modern Muse Bouquet",
@@ -16,7 +16,7 @@ let flowerNames = [
     "Fresh Meadows Bouquet",
     "Rosy Delight Bouquet",
     "Pink Paradise Bouquet",
-    "Deep Purple Dreams Bouquet",
+    "Deep Purple Bouquet",
     "Pink Blossom Bouquet",
     "Pretty in Pink Bouquet",
     "Pink Dazzler Bouquet"
@@ -34,7 +34,7 @@ const addingImages = () => {
         
         var image = document.createElement("img")
         image.setAttribute("src","../img/flower"+ i +".jpg");
-        image.setAttribute("class", "img img" + i);
+        image.setAttribute("class", "img" + " " + i + " " + "img" + i);
 
         var name = document.createElement("h5")
         name.setAttribute("class", "flower-name");
