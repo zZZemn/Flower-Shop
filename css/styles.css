@@ -353,6 +353,10 @@ form {
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    form {
+        border-top: none !important;
+    }
 }
 
 @media (max-width: 520px) {
