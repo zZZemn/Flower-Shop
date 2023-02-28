@@ -122,4 +122,29 @@ th {
         color:#4e295d;
     }
 
+    .table-container {
+        margin-top: 10vh;
+    }
+
+    .table-container h1 {
+        font-size: 18px;
+    }
+
+    .table-container th {
+        font-size: 13px;
+    }
+    
+    .table-container td {
+        font-size: 12px;
+    }
 }
+
+@media (max-width: 485px) {
+    .with-img img {
+        display: none;
+    }
+
+    .with-img a {
+       left: 2%;
+    }
+} 
