@@ -213,6 +213,14 @@ body {
 
 @media (max-width: 425px) { 
 
+    .about-container {
+        margin-top: 20px;
+    }
+
+    .about p {
+        font-size: 3px;
+    }
+
     .footer {
         padding: 10px;
         font-size: 9px;
