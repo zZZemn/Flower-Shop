@@ -6,6 +6,7 @@ body {
     display: flex;
     position: relative;
     font-family: 'Poppins', sans-serif;
+    z-index: -1;
 }
 
 .about-container img {
