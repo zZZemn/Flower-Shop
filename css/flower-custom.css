@@ -14,14 +14,14 @@ body {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.767);
     
-   display: none;
+    display: none;
 }
 
 .open-flower-container {
     font-family: 'Poppins', sans-serif;
     position: relative;
     background-color: rgb(255, 255, 255);
-    width: 30%;
+    width: 28%;
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -33,14 +33,15 @@ body {
 .open-flower-container img {
     position: absolute;
     height: 75%;
-    top: 7%;
+    top: 6%;
     border: 2px solid #4e295d;
 }
 
 .price-name-container {
     position: absolute;
-    bottom: 5%;
-    width: 83%;
+    bottom: 3%;
+    width: 80%;
+    height: 13%;
 }
 
 .price-name-container h1{
@@ -53,6 +54,8 @@ body {
     font-size: 20px;
     letter-spacing: 1px;
     color: #4e295d;
+    position: absolute;
+    bottom: 0;
 }
 
 .cart {
